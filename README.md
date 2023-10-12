@@ -1,6 +1,6 @@
 # 6MinK.github.io
 
-# 프로젝트명: 게임작품명
+# 프로젝트명: D.D / Devil. Defense
 
 # [컨셉]
 
