@@ -37,13 +37,15 @@
 
 # [관련 이미지]
 - 이미지 1
+  
   ![관련이미지1](https://github.com/6MinK/6MinK.github.io/assets/147678500/80d92135-984d-4e8e-87b6-a23861db10de)
 
 - 이미지 2
+  
   ![관련이미지2](https://github.com/6MinK/6MinK.github.io/assets/147678500/1a7deedc-81c1-45f6-8b06-86e853ffe50e)
 
- 
 - 이미지 3
+  
   ![관련이미지3](https://github.com/6MinK/6MinK.github.io/assets/147678500/13cb12af-8c78-4a03-be1c-4552ed4e4f0f)
 
 
