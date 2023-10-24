@@ -395,11 +395,18 @@ Unity Engine 을 통해 게임을 제작
 - 게임 클리어시 게임 클리어 팝업이 뜨고 시작화면으로 돌아간다.
 - 게임 클리어 실패 시 게임 클리어 실패 팝업이 뜨고 시작화면으로 돌아간다.
 - ### [플로우차트]<a name='6b'></a>
+![플로우차트](https://github.com/6MinK/6MinK.github.io/assets/147678500/bdabad0f-b433-4029-961a-5675550b0f74)
 
 - ### [키보드 이벤트에 대한 흐름도]<a name='6c'></a>
 
+![키코드](https://github.com/6MinK/6MinK.github.io/assets/147678500/5ab41231-75eb-48a1-bb57-ac70cddd4386)
+
 - ### [용어 정리]<a name='6d'></a>
-	
+
+![용어 정리1](https://github.com/6MinK/6MinK.github.io/assets/147678500/863ae800-9aaa-480a-b1df-ac93bdd3f410)
+![용어정리2](https://github.com/6MinK/6MinK.github.io/assets/147678500/1c4746bc-2aa9-4d0e-810c-882545cf4498)
+![용어정리3](https://github.com/6MinK/6MinK.github.io/assets/147678500/d81e5ed7-54b2-4e83-89a0-073dcec29565)
+![용어정리4](https://github.com/6MinK/6MinK.github.io/assets/147678500/da68cf2b-7a32-41bf-b2e7-5ed91eb3e04b)
 
 - ### [스토리보드]<a name='6e'></a>
 	- 해당사항 없음 
