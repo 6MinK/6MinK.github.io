@@ -164,14 +164,13 @@ Unity Engine 을 통해 게임을 제작
 
 |  	 연번 	 |  	 종류 	 |  	 OBJ 이름 	 |  	 Obj 영문명 	 |  	 사용처 	 |  	 오브젝트 이미지 	 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-
-|  	 1 	  |  	 플레이어 	 |  	 견습 전사 	 |  	 page 	  |  	 공통 	 | ![견습전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/6c742780-fd09-45bd-894c-2eb0fea06c11) 	 	  |
-|  	 2 	  |  	 플레이어 	 |  	 전사 	 |  	 warrior 	  |  	 공통 	 |  	 # 	  |
-|  	 3 	  |  	 플레이어 	 |  	 광전사 	 |  	 berserker 	  |  	 공통 	 |  	 # 	  |
-|  	 4 	  |  	 플레이어 	 |  	 견습 궁수 	 |  	 novice Archer 	  |  	 공통 	 |  	 # 	  |
+|  	 1 	  |  	 플레이어 	 |  	 견습 전사 	 |  	 page 	  |  	 공통 	 | ![견습전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/6c742780-fd09-45bd-894c-2eb0fea06c11)|
+|  	 2 	  |  	 플레이어 	 |  	 전사 	 |  	 warrior 	  |  	 공통 	 | |
+|  	 3 	  |  	 플레이어 	 |  	 광전사 	 |  	 berserker 	  |  	 공통 	 |  	  |
+|  	 4 	  |  	 플레이어 	 |  	 견습 궁수 	 |  	 novice Archer 	  |  	 공통 	 |  	  ![견습 궁수](https://github.com/6MinK/6MinK.github.io/assets/147678500/302cfb3c-8a94-44c0-b51f-548245596064)	  |
 |  	 5 	  |  	 플레이어 	 |  	 궁수 	 |  	 archer 	  |  	 공통 	 |  	 # 	  |
 |  	 6 	  |  	 플레이어 	 |  	 신궁 	 |  	 bow Master 	  |  	 공통 	 |  	 # 	  |
-|  	 7 	  |  	 플레이어 	 |  	 견습 마법사 	 |  	 mage 	  |  	 공통 	 |  	 # 	  |
+|  	 7 	  |  	 플레이어 	 |  	 견습 마법사 	 |  	 mage 	  |  	 공통 	 |  	 ![견습마법사](https://github.com/6MinK/6MinK.github.io/assets/147678500/f5100587-045d-4ab3-a877-d46568abad48)	  |
 |  	 8 	  |  	 플레이어 	 |  	 마법사 	 |  	 archmage 	  |  	 공통 	 |  	 # 	  |
 |  	 9 	  |  	 플레이어 	 |  	 대마법사 	 |  	 grand Mage 	  |  	 공통 	 |  	 # 	  |
 |  	 10 	  |  	 상인 	 |  	 상인 맥 	 |  	 merchant Mac 	  |  	 공통 	 |  	 # 	  |
