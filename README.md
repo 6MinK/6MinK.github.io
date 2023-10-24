@@ -165,22 +165,22 @@ Unity Engine 을 통해 게임을 제작
 |  	 연번 	 |  	 종류 	 |  	 OBJ 이름 	 |  	 Obj 영문명 	 |  	 사용처 	 |  	 오브젝트 이미지 	 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |  	 1 	  |  	 플레이어 	 |  	 견습 전사 	 |  	 page 	  |  	 공통 	 | ![견습전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/6c742780-fd09-45bd-894c-2eb0fea06c11)|
-|  	 2 	  |  	 플레이어 	 |  	 전사 	 |  	 warrior 	  |  	 공통 	 | |
-|  	 3 	  |  	 플레이어 	 |  	 광전사 	 |  	 berserker 	  |  	 공통 	 |  	  |
-|  	 4 	  |  	 플레이어 	 |  	 견습 궁수 	 |  	 novice Archer 	  |  	 공통 	 |  	  ![견습 궁수](https://github.com/6MinK/6MinK.github.io/assets/147678500/302cfb3c-8a94-44c0-b51f-548245596064)	  |
-|  	 5 	  |  	 플레이어 	 |  	 궁수 	 |  	 archer 	  |  	 공통 	 |  	 # 	  |
-|  	 6 	  |  	 플레이어 	 |  	 신궁 	 |  	 bow Master 	  |  	 공통 	 |  	 # 	  |
+|  	 2 	  |  	 플레이어 	 |  	 전사 	 |  	 warrior 	  |  	 공통 	 | ![방패 전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/329da724-b33a-4479-8b61-2271dc75e77d) |
+|  	 3 	  |  	 플레이어 	 |  	 광전사 	 |  	 berserker 	  |  	 공통 	 |  ![광전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/68b1146f-62f7-4d4d-97ff-a82c809fca6a)	  |
+|  	 4 	  |  	 플레이어 	 |  	 견습 궁수 	 |  	 novice Archer 	  |  	 공통 	 | ![견습 궁수](https://github.com/6MinK/6MinK.github.io/assets/147678500/302cfb3c-8a94-44c0-b51f-548245596064)	  |
+|  	 5 	  |  	 플레이어 	 |  	 궁수 	 |  	 archer 	  |  	 공통 	 |  	![궁수](https://github.com/6MinK/6MinK.github.io/assets/147678500/c5ccf24a-7409-4832-a74c-3e1f37c1f88a) |
+|  	 6 	  |  	 플레이어 	 |  	 신궁 	 |  	 bow Master 	  |  	 공통 	 |![신궁](https://github.com/6MinK/6MinK.github.io/assets/147678500/bde99fdb-5c1d-4b8d-b26c-09c65eb43d2a) |
 |  	 7 	  |  	 플레이어 	 |  	 견습 마법사 	 |  	 mage 	  |  	 공통 	 |  	 ![견습마법사](https://github.com/6MinK/6MinK.github.io/assets/147678500/f5100587-045d-4ab3-a877-d46568abad48)	  |
-|  	 8 	  |  	 플레이어 	 |  	 마법사 	 |  	 archmage 	  |  	 공통 	 |  	 # 	  |
-|  	 9 	  |  	 플레이어 	 |  	 대마법사 	 |  	 grand Mage 	  |  	 공통 	 |  	 # 	  |
-|  	 10 	  |  	 상인 	 |  	 상인 맥 	 |  	 merchant Mac 	  |  	 공통 	 |  	 # 	  |
-|  	 11 	  |  	 대장장이 	 |  	 호프만  	 |  	 hofmann 	  |  	 공통 	 |  	 # 	  |
-|  	 12 	  |  	 몬스터 	 |  	 해골 병사 	 |  	 skeleton warrior 	  |  	 일반 몬스터 	 |  	 # 	  |
-|  	 13 	  |  	 몬스터 	 |  	 오우거 	 |  	 Orc 	  |  	 일반 몬스터 	 |  	 # 	  |
-|  	 14 	  |  	 몬스터 	 |  	 유령 전사 	 |  	 ghost Warrior 	  |  	 일반 강화 몬스터 	 |  	 # 	  |
-|  	 15 	  |  	 몬스터 	 |  	 미믹 	 |  	 mimic 	  |  	 보너스 이벤트 몬스터  	 |  	 # 	  |
-|  	 16 	  |  	 몬스터 	 |  	 늑대 전사 	 |  	 wolf Warrior 	  |  	 중간 보스 몬스터 	 |  	 # 	  |
-|  	 17 	  |  	 몬스터 	 |  	 마족 군단장 	 |  	 Devil Comander 	  |  	 최종 보스 몬스터  	 |  	 # 	  |
+|  	 8 	  |  	 플레이어 	 |  	 마법사 	 |  	 archmage 	  |  	 공통 	 |  	 ![마법사](https://github.com/6MinK/6MinK.github.io/assets/147678500/a1bbe14a-a2d1-4b14-8da8-29af5ce32fe6)	  |
+|  	 9 	  |  	 플레이어 	 |  	 대마법사 	 |  	 grand Mage 	  |  	 공통 	 |  	 ![대마법사](https://github.com/6MinK/6MinK.github.io/assets/147678500/6be5766e-60bb-4d5c-b21b-678a7a6eefee)	  |
+|  	 10 	  |  	 상인 	 |  	 상인 맥 	 |  	 merchant Mac 	  |  	 공통 	 | ![상인](https://github.com/6MinK/6MinK.github.io/assets/147678500/70c22992-3a52-40a8-b745-c265e9c01bd0) |
+|  	 11 	  |  	 대장장이 	 |  	 호프만  	 |  	 hofmann 	  |  	 공통 	 | ![대장장이](https://github.com/6MinK/6MinK.github.io/assets/147678500/c368e9bf-60a4-4fae-8fd4-9f449f4681c4)|
+|  	 12 	  |  	 몬스터 	 |  	 해골 병사 	 |  	 skeleton warrior 	  |  	 일반 몬스터 	 |![스켈레톤](https://github.com/6MinK/6MinK.github.io/assets/147678500/74d6ecca-574b-470c-bd60-b58060fa942c)|
+|  	 13 	  |  	 몬스터 	 |  	 오우거 	 |  	 Orc 	  |  	 일반 몬스터 	 |![오우거](https://github.com/6MinK/6MinK.github.io/assets/147678500/b489d99c-6e4b-43cc-90b1-69d05f7f8b4a)|
+|  	 14 	  |  	 몬스터 	 |  	 유령 전사 	 |  	 ghost Warrior 	  |  	 일반 강화 몬스터 	 |![유령 전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/feacca3a-2edf-4a03-859f-bf7052da0373)|
+|  	 15 	  |  	 몬스터 	 |  	 미믹 	 |  	 mimic 	  |  	 보너스 이벤트 몬스터  	 | ![트랩박스](https://github.com/6MinK/6MinK.github.io/assets/147678500/c3deb200-4182-4717-a895-947e8ba7431e) |
+|  	 16 	  |  	 몬스터 	 |  	 늑대 전사 	 |  	 wolf Warrior 	  |  	 중간 보스 몬스터 	 |  	 ![늑대 전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/2649a6c9-2abb-4c45-bc63-f4a67baea870)|
+|  	 17 	  |  	 몬스터 	 |  	 마족 군단장 	 |  	 Devil Comander 	  |  	 최종 보스 몬스터  	 | ![군단장](https://github.com/6MinK/6MinK.github.io/assets/147678500/3c7256c6-f5b1-4c74-812c-a31b724b9c21)|
 
 - ### [파라미터(속성) 뽑아 보기]<a name='5b'></a>
     1) 오브젝트 이름: 전사, 마법사, 궁수 
