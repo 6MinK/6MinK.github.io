@@ -9,9 +9,9 @@
 - ### [파라미터(속성) 뽑아 보기](#5b)
 - ### [행동 뽑아 보기](#5b)
 - ### [상태 뽑아 보기](#5c)
-- ### [플레이어 캐릭터 속성(파라미터)](#5e)
-- ### [게임의 규칙](#5f)
-- ### [게임에서 사용될 공식](#5g)
+- ### [플레이어 캐릭터 속성(파라미터)](#5d)
+- ### [게임의 규칙](#5e)
+- ### [게임에서 사용될 공식](#5f)
 ## 6. [요구사항(1년차)](#6)
 - ### [요구사항](#6a)
 - ### [플로우차트](#6b)
@@ -209,6 +209,15 @@ Unity Engine 을 통해 게임을 제작
 
 
 - ### [행동 뽑아 보기]<a name='5c'></a>
+1) 오브젝트 이름 : 플레이어
+
+|행동|영문명칭|설명|
+|:---:|:---:|:---:|:---:|
+|캐릭터공격|page_Attack<br/>warrior_Attack<br/>berserker_Attack<br/>novice archer_Attack<br/>rcher_Attack<br/>bow master_Attack<br/>mage_Attack <br/>archmage_Attack<br/>grand mage_Attack|사거리 내에 있는 적을 공격한다.|
+|캐릭터정지|page_Hold<br/>warrior_Hold<br/>berserker_Hold<br/>novice archer_Hold<br/>archer_Hold <br/>bow master_Hold<br/>mage_Hold<br/>archmage_Hold<br/>grand mage_Hold<br/>|<br/>사거리 내에 적이 없을 경우 멈춘다.|
+|캐릭터이동|page_Moving<br/>warrior_Moving<br/>berserker_Moving<br/>novice archer_Moving<br/>archer_Moving<br/>bow master_Moving<br/>mage_Moving<br/>archmage_Moving<br/>grand mage_Moving|이동키를 눌렀을 경우<br/> 사거리 내에 적이 있어도 마우스커서가 있는 곳으로 <br/>먼저 움직인다.|
+
+
 
 
 - ### [상태 뽑아 보기]<a name='5d'></a>
@@ -241,6 +250,7 @@ Unity Engine 을 통해 게임을 제작
 
 - ### [플레이어 캐릭터 속성]<a name='5e'></a>
  1) 파라미터
+
 |속성|영문명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
 |견습전사|page|전사 직업군의 1단계 전사, 바람 속성 이다.|
