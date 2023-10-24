@@ -165,19 +165,19 @@ Unity Engine 을 통해 게임을 제작
     #### 1) 오브젝트 이름: 전사, 마법사, 궁수 
     |  	속성 	 |  	영문명칭 	 |  	설명 	 |  	비고 	 |
     |:---:|:---:|:---:|:---:|
-    |무기 공격력|w_w_Damage<br> w_a_Damage<br>w_m_Damage 	 |각 직업군의 무기 공격력의 수치<br>(강화를 통한 직접적인 수치 적용) 	 | |
-    |무기 공격속도|w_w_Speed<br> w_a_Speed	<br>w_m_Speed 	 |각 직업군의 무기 공격속도의 수치<br>(강화를 통한 직접적인 수치 적용) 	 |	 |
-    | 공격 사거리|w_Attack_Range<br> a_Attack_Range<br>m_Attack_Range 	 |각 직업군의 공격 사거리<br>전사 3, 궁수 8, 마법사 5 배율로 고정 	 | |
-    | 상태|w_Status<br>a_Status<br>m_Status|각 직업군의 행동상태.   이동, 공격, 정지 	 | |
-    | 속성|w_Type<br>a_Type<br>m_Type| 각 직업군의 속성.<br>속성별 추가 데미지 및 스킬 데미지  	 | |
+    |무기 공격력|w_w_Damage<br/> w_a_Damage<br/>w_m_Damage 	 |각 직업군의 무기 공격력의 수치<br/>(강화를 통한 직접적인 수치 적용) 	 | |
+    |무기 공격속도|w_w_Speed<br/> w_a_Speed	<br/>w_m_Speed 	 |각 직업군의 무기 공격속도의 수치<br/>(강화를 통한 직접적인 수치 적용) 	 |	 |
+    | 공격 사거리|w_Attack_Range<br/> a_Attack_Range<br/>m_Attack_Range 	 |각 직업군의 공격 사거리<br/>전사 3, 궁수 8, 마법사 5 배율로 고정 	 | |
+    | 상태|w_Status<br/>a_Status<br/>m_Status|각 직업군의 행동상태.   이동, 공격, 정지 	 | |
+    | 속성|w_Type<br/>a_Type<br/>m_Type| 각 직업군의 속성.<br/>속성별 추가 데미지 및 스킬 데미지  	 | |
 
     #### 2) 오브젝트 이름 : 상인
     |  	 속성 	 |  	 영문명칭 	 |  	 설명 	 |  	 비고 	 |
     |:---:|:---:|:---:|:---:|
-    |  	 전체 직업 랜덤 뽑기 	 |  	 all_random_pick 	  |  	 실패는 없지만 <br>3종류의 직업이 모두 나오는 <br> 랜덤 유닛 뽑기 	 |  	   	  |
-    |  	 전사 직업 랜덤 뽑기 	 |  	 warrior_random_pick 	  |  	 실패 확률이 존재하지만 <br> 전사직업군 만 나오는 랜덤 유닛 뽑기  	 |  	   	  |
-    |  	 궁수 직업 랜덤 뽑기 	 |  	 archer_random_pick 	  |  	 실패 확률이 존재하지만<br> 궁수직업군 만 나오는 랜덤 유닛 뽑기  	 |  	   	  |
-    |  	 마법사 직업 랜덤 뽑기 	 |  	 mage_random_pick 	  |  	 실패 확률이 존재하지만 <br> 마법사직업군 만 나오는 랜덤 유닛 뽑기  	 |  	   	  |
+    |  	 전체 직업 랜덤 뽑기 	 |  	 all_random_pick 	  |  	 실패는 없지만 <br/>3종류의 직업이 모두 나오는 <br/> 랜덤 유닛 뽑기 	 |  	   	  |
+    |  	 전사 직업 랜덤 뽑기 	 |  	 warrior_random_pick 	  |  	 실패 확률이 존재하지만 <br/> 전사직업군 만 나오는 랜덤 유닛 뽑기  	 |  	   	  |
+    |  	 궁수 직업 랜덤 뽑기 	 |  	 archer_random_pick 	  |  	 실패 확률이 존재하지만<br/> 궁수직업군 만 나오는 랜덤 유닛 뽑기  	 |  	   	  |
+    |  	 마법사 직업 랜덤 뽑기 	 |  	 mage_random_pick 	  |  	 실패 확률이 존재하지만 <br/> 마법사직업군 만 나오는 랜덤 유닛 뽑기  	 |  	   	  |
 
     #### 3) 오브젝트 이름 : 대장장이 
     |  	 속성 	 |  	 영문명칭 	 |  	 설명 	 |  	 비고 	 |
@@ -187,20 +187,20 @@ Unity Engine 을 통해 게임을 제작
     |  	 마법사 강화 	 |  	 mage_Upgrade 	  |  	 마법사 직업의 무기 강화 (공격력 및 공격속도 상승) 	 |  	   	  |
 
     #### 4) 오브젝트 이름 : 몬스터
-    |  	 속성 	 |  	 영문명칭 	 |  	 설명 	 |  	 비고 	 | <br/>
+    |  	 속성 	 |  	 영문명칭 	 |  	 설명 	 |  	 비고 	 |
     |:------:|:---:|:---:|:---:|
-    |  	 일반몬스터 <br/> 이동속도 	 |  	 common_Monster_Speed 	  |  	 일반몬스터의 이동속도  <br/> 	 스테이지 마다 이동속도 증가 	 |  	   	  |<br/>
-    |  	 일반몬스터 <br/> 체력 	 |  	 common_Monster_Hp 	  |  	 일반 몬스터의 체력  <br/> 	 스테이지 마다 체력 증가 	 |  	   	  | <br/>
-    |  	 일반몬스터 <br/> 속성 	 |  	 common_Monster_Type 	  |  	 일반 몬스터의 속성은 노말 고정 	 |  	   	  | <br/>
-    |  	 일반 <br/> 강화 몬스터<br/>  이동속도 	 |  	 uncommon_Monster_Speed 	  |  	 일반강화 몬스터의 이동속도  <br/> 	 스테이지 마다 이동속도 증가 	 |  	   	  | <br/>
-    |  	 일반 <br/> 강화 몬스터 <br/> 체력 	 |  	 uncommon_Monster_Hp 	  |  	 일반강화 몬스터의 이동속도  <br/> 	 스테이지 마다 체력 증가 	 |  	   	  | <br/>
-    |  	 일반 <br/> 강화 몬스터<br/>  속성 	 |  	 uncommon_Monster_Type 	  |  	 일반강화 몬스터의 속성  <br/> 	 라운드마다 속성이 달라진다. 	 |  	   	  |  <br/>
-    |  	 중간<br/> 보스 몬스터 <br/> 이동속도 	 |  	 middle_Boss_Speed1  <br/> 	 middle_Boss_Speed2 	   |  	 중간보스 몬스터의 이동속도 <br/>  	 첫 번째와 두 번째 이동속도 고정  <br/> 	 게임 내 2번 고정 소환 	 |  	   	  |<br/>
-    |  	 중간보스 몬스터 <br/> 체력 	 |  	 middle_Boss_Hp1 <br/> middle_Boss_Hp2 	  |  	 중간보스 몬스터의 체력  	 첫 번째와 두 번째 체력 고정  <br/> 	 게임 내 2번 고정 소환 	 |  	   	  |<br/>
-    |  	 중간보스 몬스터 <br/> 속성 	 |  	 middle_Boss_Type1  <br/> 	 middle_Boss_Type2 	   |  	 중간보스 몬스터의 속성  	 첫 번째와 두 번째 속성 고정  <br/> 	 게임 내 2번 고정 소환 	 |  	   	  |<br/>
-    |  	 최종보스 몬스터<br/>  이동속도 	 |  	 last_Boss_Speed 	  |  	 최종보스 몬스터의 이동속도  <br/> 	 게임 내 1번 고정소환 = 고정값 	 |  	   	  |<br/>
-    |  	 최종보스 몬스터<br/>  체력 	 |  	 last_Boss_Hp 	  |  	 최종보스 몬스터의 체력 <br/>  	 게임 내 1번 고정소환 = 고정값 	 |  	   	  |<br/>
-    |  	 최종보스 몬스터 <br/> 속성 	 |  	 last_Boss_Type 	  |  	 최종보스 몬스터의 속성  <br/> 	 게임 내 1번 고정소환 = 고정값 	 |  	   	  | <br/>
+    |  	 일반몬스터 <br/> 이동속도 	 |  	 common_Monster_Speed 	  |  	 일반몬스터의 이동속도  <br/> 	 스테이지 마다 이동속도 증가 	 |  	   	  |
+    |  	 일반몬스터 <br/> 체력 	 |  	 common_Monster_Hp 	  |  	 일반 몬스터의 체력  <br/> 	 스테이지 마다 체력 증가 	 |  	   	  |
+    |  	 일반몬스터 <br/> 속성 	 |  	 common_Monster_Type 	  |  	 일반 몬스터의 속성은 노말 고정 	 |  	   	  |
+    |  	 일반 <br/> 강화 몬스터<br/>  이동속도 	 |  	 uncommon_Monster_Speed 	  |  	 일반강화 몬스터의 이동속도  <br/> 	 스테이지 마다 이동속도 증가 	 |  	   	  |
+    |  	 일반 <br/> 강화 몬스터 <br/> 체력 	 |  	 uncommon_Monster_Hp 	  |  	 일반강화 몬스터의 이동속도  <br/> 	 스테이지 마다 체력 증가 	 |  	   	  |
+    |  	 일반 <br/> 강화 몬스터<br/>  속성 	 |  	 uncommon_Monster_Type 	  |  	 일반강화 몬스터의 속성  <br/> 	 라운드마다 속성이 달라진다. 	 |  	   	  |
+    |  	 중간<br/> 보스 몬스터 <br/> 이동속도 	 |  	 middle_Boss_Speed1  <br/> 	 middle_Boss_Speed2 	   |  	 중간보스 몬스터의 이동속도 <br/>  	 첫 번째와 두 번째 이동속도 고정  <br/> 	 게임 내 2번 고정 소환 	 |  	   	  |
+    |  	 중간보스 몬스터 <br/> 체력 	 |  	 middle_Boss_Hp1 <br/> middle_Boss_Hp2 	  |  	 중간보스 몬스터의 체력  	 첫 번째와 두 번째 체력 고정  <br/> 	 게임 내 2번 고정 소환 	 |  	   	  |
+    |  	 중간보스 몬스터 <br/> 속성 	 |  	 middle_Boss_Type1  <br/> 	 middle_Boss_Type2 	   |  	 중간보스 몬스터의 속성  	 첫 번째와 두 번째 속성 고정  <br/> 	 게임 내 2번 고정 소환 	 |  	   	  |
+    |  	 최종보스 몬스터<br/>  이동속도 	 |  	 last_Boss_Speed 	  |  	 최종보스 몬스터의 이동속도  <br/> 	 게임 내 1번 고정소환 = 고정값 	 |  	   	  |
+    |  	 최종보스 몬스터<br/>  체력 	 |  	 last_Boss_Hp 	  |  	 최종보스 몬스터의 체력 <br/>  	 게임 내 1번 고정소환 = 고정값 	 |  	   	  |
+    |  	 최종보스 몬스터 <br/> 속성 	 |  	 last_Boss_Type 	  |  	 최종보스 몬스터의 속성  <br/> 	 게임 내 1번 고정소환 = 고정값 	 |  	   	  | 
 
 
 
@@ -243,6 +243,7 @@ Unity Engine 을 통해 게임을 제작
 |광전사|berserker|전사 직업군의 3단계 전사, 빛 속성 이다.|
 |신궁|bow Master|궁수 직업군의 3단계 궁수, 화염 속성 이다.|
 |대마법사|grand Mage|마법사 직업군의 3단계 마법사, 얼음 속성 이다.|
+
 - 얼음 속성은 빛 속성과 시너지가 좋다.
 - 바람 속성은 화염 속성과 시너지가 매우 좋으며, 얼음 속성과 빛 속성은 시너지가 안 좋다.
 - 화염 속성은 바람 속성과 시너지가 좋으며, 빛 속성과 시너지가 안 좋다.
