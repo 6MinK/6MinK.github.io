@@ -7,11 +7,11 @@
 ## 5. [게임 시스템 디자인](#5)
 - ### [게임오브젝트 분해](#5a)
 - ### [파라미터(속성) 뽑아 보기](#5b)
-- ### [행동 뽑아 보기](#5b)
-- ### [상태 뽑아 보기](#5c)
-- ### [플레이어 캐릭터 속성(파라미터)](#5d)
-- ### [게임의 규칙](#5e)
-- ### [게임에서 사용될 공식](#5f)
+- ### [행동 뽑아 보기](#5c)
+- ### [상태 뽑아 보기](#5d)
+- ### [플레이어 캐릭터 속성(파라미터)](#5e)
+- ### [게임의 규칙](#5f)
+- ### [게임에서 사용될 공식](#5g)
 ## 6. [요구사항(1년차)](#6)
 - ### [요구사항](#6a)
 - ### [플로우차트](#6b)
@@ -160,6 +160,27 @@ Unity Engine 을 통해 게임을 제작
 
 # [게임 시스템 디자인]<a name='5'></a>
 - ### [게임오브젝트 분해]<a name='5a'></a>
+    1) 게임 오브젝트 분해 
+
+|  	 연번 	 |  	 종류 	 |  	 OBJ 이름 	 |  	 Obj 영문명 	 |  	 사용처 	 |  	 오브젝트 이미지 	 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|  	 1 	  |  	 플레이어 	 |  	 견습 전사 	 |  	 page 	  |  	 공통 	 |  	 # 	  |
+|  	 2 	  |  	 플레이어 	 |  	 전사 	 |  	 warrior 	  |  	 공통 	 |  	 # 	  |
+|  	 3 	  |  	 플레이어 	 |  	 광전사 	 |  	 berserker 	  |  	 공통 	 |  	 # 	  |
+|  	 4 	  |  	 플레이어 	 |  	 견습 궁수 	 |  	 novice Archer 	  |  	 공통 	 |  	 # 	  |
+|  	 5 	  |  	 플레이어 	 |  	 궁수 	 |  	 archer 	  |  	 공통 	 |  	 # 	  |
+|  	 6 	  |  	 플레이어 	 |  	 신궁 	 |  	 bow Master 	  |  	 공통 	 |  	 # 	  |
+|  	 7 	  |  	 플레이어 	 |  	 견습 마법사 	 |  	 mage 	  |  	 공통 	 |  	 # 	  |
+|  	 8 	  |  	 플레이어 	 |  	 마법사 	 |  	 archmage 	  |  	 공통 	 |  	 # 	  |
+|  	 9 	  |  	 플레이어 	 |  	 대마법사 	 |  	 grand Mage 	  |  	 공통 	 |  	 # 	  |
+|  	 10 	  |  	 상인 	 |  	 상인 맥 	 |  	 merchant Mac 	  |  	 공통 	 |  	 # 	  |
+|  	 11 	  |  	 대장장이 	 |  	 호프만  	 |  	 hofmann 	  |  	 공통 	 |  	 # 	  |
+|  	 12 	  |  	 몬스터 	 |  	 해골 병사 	 |  	 skeleton warrior 	  |  	 일반 몬스터 	 |  	 # 	  |
+|  	 13 	  |  	 몬스터 	 |  	 오우거 	 |  	 Orc 	  |  	 일반 몬스터 	 |  	 # 	  |
+|  	 14 	  |  	 몬스터 	 |  	 유령 전사 	 |  	 ghost Warrior 	  |  	 일반 강화 몬스터 	 |  	 # 	  |
+|  	 15 	  |  	 몬스터 	 |  	 미믹 	 |  	 mimic 	  |  	 보너스 이벤트 몬스터  	 |  	 # 	  |
+|  	 16 	  |  	 몬스터 	 |  	 늑대 전사 	 |  	 wolf Warrior 	  |  	 중간 보스 몬스터 	 |  	 # 	  |
+|  	 17 	  |  	 몬스터 	 |  	 마족 군단장 	 |  	 Devil Comander 	  |  	 최종 보스 몬스터  	 |  	 # 	  |
 
 - ### [파라미터(속성) 뽑아 보기]<a name='5b'></a>
     1) 오브젝트 이름: 전사, 마법사, 궁수 
@@ -217,7 +238,13 @@ Unity Engine 을 통해 게임을 제작
 |캐릭터정지|page_Hold<br/>warrior_Hold<br/>berserker_Hold<br/>novice archer_Hold<br/>archer_Hold <br/>bow master_Hold<br/>mage_Hold<br/>archmage_Hold<br/>grand mage_Hold<br/>|<br/>사거리 내에 적이 없을 경우 멈춘다.|
 |캐릭터이동|page_Moving<br/>warrior_Moving<br/>berserker_Moving<br/>novice archer_Moving<br/>archer_Moving<br/>bow master_Moving<br/>mage_Moving<br/>archmage_Moving<br/>grand mage_Moving|이동키를 눌렀을 경우<br/> 사거리 내에 적이 있어도 마우스커서가 있는 곳으로 <br/>먼저 움직인다.|
 
+2) 오브젝트 이름 : 몬스터
 
+|  	 행동 	 |  	 영문명칭 	 |  	 설명 	 |  
+|:---:|:---:|:---:|:---:|
+|  	 몬스터 이동 	 |  	 monster_Moving 	  |  	 지정된 경로를 이동한다. 	 |  
+|  	 몬스터 슬로우 	 |  	 monster_Slow 	  |  	 이동속도가 잠시 저하된다. 	 |  
+|  	 몬스터 스턴 	 |  	 monster_Stun 	  |  	 이동을 잠시 멈추게된다. 	 |  
 
 
 - ### [상태 뽑아 보기]<a name='5d'></a>
