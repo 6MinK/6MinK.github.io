@@ -143,8 +143,8 @@ Unity Engine 을 통해 게임을 제작
 
     |  	속성 	 |  	영문명칭 	 |  	설명 	 |  	비고 	 |
     |:---:|:---:|:---:|:---:|
-    |무기 공격력|w_w_Damage<br/> w_a_Damage<br/>w_m_Damage 	 |무기 공격력의 수치 	 | |
-    | 상태|w_Status<br/>a_Status<br/>m_Status|행동상태.   이동, 공격, 정지 	 | |
+    |무기 공격력|w_w_Damage	 | 무기 공격력의 수치 	 | |
+    | 상태|w_Status| 이동/ 공격중/ 스킬사용중/ 피격/ 타격 | |
     | 속성|w_Type<br/>a_Type<br/>m_Type| 체력/ 이동속도/ 공격력	 | |
 
     2) 오브젝트 이름 : 몬스터
@@ -152,14 +152,10 @@ Unity Engine 을 통해 게임을 제작
     |  	 속성 	 |  	 영문명칭 	 |  	 설명 	 |  	 비고 	 |
     |:------:|:---:|:---:|:---:|
     |  	 일반몬스터 <br/> 이동속도 	 |  	 common_Monster_Speed 	  |  	 일반몬스터의 이동속도  <br/> 	 스테이지 마다 이동속도 증가 	 |  	   	  |
-    |  	 일반몬스터 <br/> 체력 	 |  	 common_Monster_Hp 	  |  	 일반 몬스터의 체력  <br/> 	 스테이지 마다 체력 증가 	 |  	   	  |
-    |  	 일반몬스터 <br/> 속성 	 |  	 common_Monster_Type 	  |  	 일반 몬스터의 속성은 노말 고정 	 |  	   	  |   	  |
-    |  	 중간<br/> 보스 몬스터 <br/> 이동속도 	 |  	 middle_Boss_Speed1  <br/> 	 middle_Boss_Speed2 	   |  	 중간보스 몬스터의 이동속도 <br/>  	 첫 번째와 두 번째 이동속도 고정  <br/> 	 게임 내 2번 고정 소환 	 |  	   	  |
+    |  	 일반몬스터 <br/> 체력 	 |  	 common_Monster_Hp 	  |  	 일반 몬스터의 체력  <br/> 	 스테이지 마다 체력 증가 	 |  	   	  |   	  |   	  |
     |  	 중간보스 몬스터 <br/> 체력 	 |  	 middle_Boss_Hp1 <br/> middle_Boss_Hp2 	  |  	 중간보스 몬스터의 체력  	 첫 번째와 두 번째 체력 고정  |  	   	  |
-    |  	 중간보스 몬스터 <br/> 속성 	 |  	 middle_Boss_Type1  <br/> 	 middle_Boss_Type2 	   |  	 중간보스 몬스터의 속성  	 첫 번째와 두 번째 속성 고정  <br/> 	 게임 내 2번 고정 소환 	 |  	   	  |
     |  	 최종보스 몬스터<br/>  이동속도 	 |  	 last_Boss_Speed 	  |  	 최종보스 몬스터의 이동속도  <br/> 	 게임 내 1번 고정소환 = 고정값 	 |  	   	  |
     |  	 최종보스 몬스터<br/>  체력 	 |  	 last_Boss_Hp 	  |  	 최종보스 몬스터의 체력 <br/>  	 게임 내 1번 고정소환 = 고정값 	 |  	   	  |
-    |  	 최종보스 몬스터 <br/> 속성 	 |  	 last_Boss_Type 	  |  	 최종보스 몬스터의 속성  <br/> 	 게임 내 1번 고정소환 = 고정값 	 |  	   	  | 
 
 
 
@@ -167,18 +163,18 @@ Unity Engine 을 통해 게임을 제작
 1) 오브젝트 이름 : 플레이어
 
 |행동|영문명칭|설명|
-|:---:|:---:|:---:|:---:|
-|캐릭터공격|page_Attack<br/>warrior_Attack<br/>berserker_Attack<br/>novice archer_Attack<br/>rcher_Attack<br/>bow master_Attack<br/>mage_Attack <br/>archmage_Attack<br/>grand mage_Attack|사거리 내에 있는 적을 공격한다.|
-|캐릭터정지|page_Hold<br/>warrior_Hold<br/>berserker_Hold<br/>novice archer_Hold<br/>archer_Hold <br/>bow master_Hold<br/>mage_Hold<br/>archmage_Hold<br/>grand mage_Hold<br/>|<br/>사거리 내에 적이 없을 경우 멈춘다.|
-|캐릭터이동|page_Moving<br/>warrior_Moving<br/>berserker_Moving<br/>novice archer_Moving<br/>archer_Moving<br/>bow master_Moving<br/>mage_Moving<br/>archmage_Moving<br/>grand mage_Moving|이동키를 눌렀을 경우<br/> 사거리 내에 적이 있어도 마우스커서가 있는 곳으로 <br/>먼저 움직인다.|
+|:---:|:---:|
+|캐릭터공격|warrior_Attack|
+|캐릭터정지|warrior_Hold|
+|캐릭터이동|warrior_Moving|
 
 2) 오브젝트 이름 : 몬스터
 
 |  	 행동 	 |  	 영문명칭 	 |  	 설명 	 |  
 |:---:|:---:|:---:|:---:|
-|  	 몬스터 이동 	 |  	 monster_Moving 	  |  	 지정된 경로를 이동한다. 	 |  
-|  	 몬스터 슬로우 	 |  	 monster_Slow 	  |  	 이동속도가 잠시 저하된다. 	 |  
-|  	 몬스터 스턴 	 |  	 monster_Stun 	  |  	 이동을 잠시 멈추게된다. 	 |  
+|  	 몬스터 이동 	 |  	 monster_Moving 	  |  	 몬스터 사거리내에 플레이어가 있을 시 이동. 	 |  
+|  	 몬스터 공격 	 |  	 monster_Attack 	  |  	 몬스터가 플레이어를 공격. 	 |  
+|  	 몬스터 대기	 |  	 monster_idle	  |  	 몬스터 사거리내에 플레이어가 없을 시 대기상태. 	 |  
 
 
 - ### [상태 뽑아 보기]<a name='5d'></a>
@@ -186,25 +182,14 @@ Unity Engine 을 통해 게임을 제작
 
 |  	 현상태 	 |  	 전이상태 	 |  	 전이조건 	 |
 |:---:|:---:|:---:|
-|  	 @@@_Hold (기본상태) 	 |  	 @@@_Attack 	  |  	 @@@의 사거리 <br/> 내에 몬스터가 있을 경우 어택 on  	 |
-|  	 @@@_Attack 	  |  	 @@@_Hold(기본상태) 	 |  	 @@@의 사거리<br/>  내에 몬스터가 없을 경우 어택 off 	 |
-|  	 @@@_Hold(기본상태) 	 |  	 @@@_Moving 	  |  	 @@@이 멈춰있을 경우 <br/>  특정키를 누르면 마우스 커서 쪽으로 이동한다. 	 |
-|  	 @@@_Moving 	  |  	 @@@_Hold(기본상태) 	 |  	 @@@이동시 <br/> 정지(H)버튼을 누르거나 이동을 완료하면 기본 상태 로 넘어간다. 	 |
-|  	 @@@_Attack 	  |  	 @@@_Moving 	  |  	 @@@공격 시 <br/> 이동을 하게 되면 공격을 멈춘 뒤 이동을 하게 된다.   	 |
+|  	 @@@_Attack 	  |  	 @@@_Hold(기본상태) 	 |  	 공격 키 누를 시 공격한다.	 |
+|  	 @@@_Hold(기본상태) 	 |  	 @@@_Moving 	  |  	이동 키 누를시 이동한다.	 |
+|  	 @@@_Moving 	  |  	 @@@_Hold(기본상태) 	 |  	 이동 키를 안누를시 기본상태로 돌아간다.	 |
 
 
 * 전이조건에 적혀있는 특정키는 괄호 안에 적혀있다.
 
-2) 오브젝트 이름 : 몬스터
 
-|  현상태 | 전이상태 |전이조건 |
-|:----:|:----:|:----:|
-|monster_Moving(기본상태)|monster_Slow|이동 중 <br/>  특정 이동속도 저하 스킬을 맞았을 경우<br/> 슬로우상태가 된다.|
-|   monster_Slow| monster_Moving(기본상태)|슬로우 상태가 된 후<br/>   일정 시간이 지난 후<br/>   기본상태 로 돌아가게 된다. |
-|  	 monster_Moving(기본상태) | monster_Stun| 이동 중 <br/>  스턴 스킬을 맞았을 경우 <br/>  정지 상태 (스턴 상태) 가 된다. |
-|  	 monster_Stun| monster_Moving(기본상태)| 정지 상태가 된 후 <br/>  일정 시간이 지난 후 기본 상태로 돌아가게 된다.  |
-|  	 monster_Slow| monster_Stun| 이동속도가 저하된 상태에서 <br/>  스턴 스킬을 맞았을 경우 정지 상태 (스턴 상태)가 된다. |
-|  	 monster_Stun| monster_Slow| 정지 상태가 된 후 <br/>  풀린뒤 슬로우 상태의 시간이 남아있다면<br/>   슬로우 상태가 된다. |
 
 - ### [플레이어 캐릭터 속성]<a name='5e'></a>
  1) 파라미터
