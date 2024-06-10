@@ -106,13 +106,17 @@ Unity Engine 을 통해 게임을 제작
 
 |  	 연번 	 |  	 종류 	 |  	 OBJ 이름 	 |  	 Obj 영문명 	 |  	 사용처 	 |  	 오브젝트 이미지 	 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|  	 1 	  |  	 플레이어 	 |  	 플레이어 	 |  	 page 	  |  	 공통 	 | ![견습전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/6c742780-fd09-45bd-894c-2eb0fea06c11)|
-|  	 12 	  |  	 몬스터 	 |  	 해골 병사 	 |  	 skeleton warrior 	  |  	 일반 몬스터 	 |![스켈레톤](https://github.com/6MinK/6MinK.github.io/assets/147678500/74d6ecca-574b-470c-bd60-b58060fa942c)|
-|  	 13 	  |  	 몬스터 	 |  	 오우거 	 |  	 Orc 	  |  	 일반 몬스터 	 |![오우거](https://github.com/6MinK/6MinK.github.io/assets/147678500/b489d99c-6e4b-43cc-90b1-69d05f7f8b4a)|
-|  	 14 	  |  	 몬스터 	 |  	 유령 전사 	 |  	 ghost Warrior 	  |  	 일반 강화 몬스터 	 |![유령 전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/feacca3a-2edf-4a03-859f-bf7052da0373)|
-|  	 15 	  |  	 몬스터 	 |  	 미믹 	 |  	 mimic 	  |  	 보너스 이벤트 몬스터  	 | ![트랩박스](https://github.com/6MinK/6MinK.github.io/assets/147678500/c3deb200-4182-4717-a895-947e8ba7431e) |
-|  	 16 	  |  	 몬스터 	 |  	 늑대 전사 	 |  	 wolf Warrior 	  |  	 중간 보스 몬스터 	 |  	 ![늑대 전사](https://github.com/6MinK/6MinK.github.io/assets/147678500/2649a6c9-2abb-4c45-bc63-f4a67baea870)|
-|  	 17 	  |  	 몬스터 	 |  	 마족 군단장 	 |  	 Devil Comander 	  |  	 최종 보스 몬스터  	 | ![군단장](https://github.com/6MinK/6MinK.github.io/assets/147678500/3c7256c6-f5b1-4c74-812c-a31b724b9c21)|
+|  	 1 	  |  	 플레이어 	 |  	 플레이어 	 |  	 player 	  |  	 플레이어 	 |![플레이어](https://github.com/6MinK/6MinK.github.io/assets/147678500/fa6c1cc7-967c-436a-99f4-65434e644903) |
+|  	 2 	  |  	 몬스터 	 |  	 해골 병사 	 |  	 skeleton warrior 	  |  	 일반 몬스터 	 |![플랜트](https://github.com/6MinK/6MinK.github.io/assets/147678500/777f0e9a-4822-4373-943b-97a70bd6294d)|
+|  	 3 	  |  	 몬스터 	 |  	 해골 병사 	 |  	 skeleton warrior 	  |  	 일반 몬스터 	 |![plain_Spider](https://github.com/6MinK/6MinK.github.io/assets/147678500/8ce853f5-7d65-4522-b459-0ae8f4980c97)|
+|  	 4 	  |  	 몬스터 	 |  	 오우거 	 |  	 Orc 	  |  	 1스테이지 보스몬스터 	 |![오우거](https://github.com/6MinK/6MinK.github.io/assets/147678500/fb77a60e-2bde-4a4d-9530-98a5aed81dac)|
+|  	 5 	  |  	 몬스터 	 |  	 사막슬라임 	 |  	 desert slime 	  |  	 일반 몬스터 	 |![사막 슬라임](https://github.com/6MinK/6MinK.github.io/assets/147678500/c2b24671-5732-42fb-ac8b-990551b21712)|
+|  	 6 	  |  	 몬스터 	 |  	 살라맨더 	 |  	 desert_Salamander 	  |  	 일반 강화 몬스터 	 |![desert_Salamander](https://github.com/6MinK/6MinK.github.io/assets/147678500/636e6a1a-9ddd-48fa-8037-fb4423a92568)|
+|  	 7 	  |  	 몬스터 	 |  	 나가 	 |  	 desert_Naga 	  |  	 2스테이지 보스몬스터   	 | ![desert_Naga](https://github.com/6MinK/6MinK.github.io/assets/147678500/36b7ab9b-0a0f-4735-9870-25c75a67e977)|
+|  	 8 	  |  	 몬스터 	 |  	 나가창전사	 |  	 ice_fish 	  |  	 일반 몬스터	 | ![ice_fish](https://github.com/6MinK/6MinK.github.io/assets/147678500/571d9d9b-394c-4349-9b3f-001df317a266) |
+|  	 9 	  |  	 몬스터 	 |  	 아이스골렘	 |  	ice_golem 	  |  	 일반 몬스터	 | ![ice_golem](https://github.com/6MinK/6MinK.github.io/assets/147678500/bb706551-94e5-4e9f-9938-360938646c0c)|
+|  	 10 	  |  	 몬스터 	 |  	 비숍	 |  	ice_Bishop	  |  	 일반 몬스터	 |![ice_Bishop](https://github.com/6MinK/6MinK.github.io/assets/147678500/8c8e2f23-4b14-4dde-a390-cb6f3bf1f50c)|
+|  	 11 	  |  	 몬스터 	 |  	 마왕 	 |  	 Demon king	  |  	 최종 보스 몬스터  	 |![ice_DemonKing](https://github.com/6MinK/6MinK.github.io/assets/147678500/46e22ed3-e155-48e3-a89f-917847b0f8f1) |
 
 - ### [파라미터(속성) 뽑아 보기]<a name='3b'></a>
     1) 오브젝트 이름: 전사
