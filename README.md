@@ -115,8 +115,8 @@ Unity Engine 을 통해 게임을 제작
 |  	 7 	  |  	 몬스터 	 |  	 나가 	 |  	 desert_Naga 	  |  	 2스테이지 보스몬스터   	 | ![desert_Naga](https://github.com/6MinK/6MinK.github.io/assets/147678500/36b7ab9b-0a0f-4735-9870-25c75a67e977)|
 |  	 8 	  |  	 몬스터 	 |  	 나가창전사	 |  	 ice_fish 	  |  	 일반 몬스터	 | ![ice_fish](https://github.com/6MinK/6MinK.github.io/assets/147678500/571d9d9b-394c-4349-9b3f-001df317a266) |
 |  	 9 	  |  	 몬스터 	 |  	 아이스골렘	 |  	ice_golem 	  |  	 일반 몬스터	 | ![ice_golem](https://github.com/6MinK/6MinK.github.io/assets/147678500/bb706551-94e5-4e9f-9938-360938646c0c)|
-|  	 10 	  |  	 몬스터 	 |  	 비숍	 |  	ice_Bishop	  |  	 일반 몬스터	 |![ice_Bishop](https://github.com/6MinK/6MinK.github.io/assets/147678500/8c8e2f23-4b14-4dde-a390-cb6f3bf1f50c)|
-|  	 11 	  |  	 몬스터 	 |  	 마왕 	 |  	 Demon king	  |  	 최종 보스 몬스터  	 |![ice_DemonKing](https://github.com/6MinK/6MinK.github.io/assets/147678500/46e22ed3-e155-48e3-a89f-917847b0f8f1) |
+|  	 10 	  |  	 몬스터 	 |  	 비숍나이트	 |  	ice_Bishop	  |  	 일반 몬스터	 |![ice_Bishop](https://github.com/6MinK/6MinK.github.io/assets/147678500/8c8e2f23-4b14-4dde-a390-cb6f3bf1f50c)|
+|  	 11 	  |  	 몬스터 	 |  	 데몬킹 	 |  	 Demon king	  |  	 최종 보스 몬스터  	 |![ice_DemonKing](https://github.com/6MinK/6MinK.github.io/assets/147678500/46e22ed3-e155-48e3-a89f-917847b0f8f1) |
 
 - ### [파라미터(속성) 뽑아 보기]<a name='3b'></a>
     1) 오브젝트 이름: 전사
